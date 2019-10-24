@@ -1,0 +1,11 @@
+{
+  "name": "pnf",
+  "version": "1.0.0",
+  "description": "Portia's Natural Foods",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Julie Vikre",
+  "license": "MIT"
+}
