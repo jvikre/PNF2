@@ -108,7 +108,7 @@
 				}
 			}
 		});
-		$('.carousel-team').owlCarousel({
+		$('.carousel-cafe').owlCarousel({
 			autoplay: true,
 			autoHeight: true,
 			items:1,

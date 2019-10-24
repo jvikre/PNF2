@@ -674,8 +674,8 @@ h3.vr{
 	}
 }
 
-//PRICING
-.pricing-entry{
+//directions
+.directions-entry{
 	// border: 1px solid lighten($black,94%);
 	border: 2px solid lighten($primary,15%);
 	position: relative;
@@ -828,7 +828,7 @@ h3.vr{
 
 
 
-.services-wrap{
+.products-wrap{
 	width: 100%;
 	&.img{
 		position: relative;
@@ -888,11 +888,11 @@ h3.vr{
 }
 
 
-//SERVICES
-.services-section{
+//products
+.products-section{
 	padding: 0;
 }
-.services{
+.products{
 	@include transition(.3s);
 	padding: 40px 25px;
 	@include media-breakpoint-down(md){
@@ -1021,8 +1021,8 @@ textarea.form-control {
 }
 
 
-//TEAM
-.team{
+//cafe
+.cafe{
 	width: 100%;
 	// display: block;
 	@include transition(.3s);
@@ -1033,7 +1033,7 @@ textarea.form-control {
 	@include media-breakpoint-down(md){
 		margin-bottom: 30px;
 	}
-	&.team-2{
+	&.cafe-2{
 		h2{
 			font-size: 24px !important;
 		}
@@ -1079,7 +1079,7 @@ textarea.form-control {
 		}
 	}
 }
-.ftco-team{
+.ftco-cafe{
 	position: relative;
 	.overlay{
 		position: absolute;
