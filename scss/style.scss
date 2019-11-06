@@ -457,8 +457,8 @@ h3.vr{
   }
 }
 
-//APPOINTMENT
-.appointment-wrap{
+//contact
+.contact-wrap{
 	text-align: center;
 	z-index: 1;
 	background: $white;
@@ -483,7 +483,7 @@ h3.vr{
 		letter-spacing: 1px;
 	}
 }
-.appointment-form{
+.contact-form{
 	.form-group{
 		position: relative;
 		margin-bottom: 0;
@@ -698,7 +698,7 @@ h3.vr{
 		@include transition(.3s);
 	}
 	p{
-		.price{
+		.visit{
 			font-weight: 900;
 			font-size: 28px;
 			color: $secondary;
@@ -739,7 +739,7 @@ h3.vr{
 			border: 1px solid $secondary !important;
 			color: $white !important;
 		}
-		.price{
+		.visit{
 			color: $secondary;
 		}
 		h3{
