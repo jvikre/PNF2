@@ -1,8 +1,12 @@
+
+ 
  AOS.init({
  	duration: 800,
  	easing: 'slide'
  });
 
+
+//google map
  function initMap() {
 	 // map options
 	 var options = {
@@ -19,9 +23,8 @@
 	});
    }
 
-
-
-
+  
+//back to top button
  $(document).ready(function(){
 	$(window).scroll(function () {
 			if ($(this).scrollTop() > 50) {
@@ -38,6 +41,7 @@
 			return false;
 		});
 });
+
 
 
 (function($) {
@@ -153,7 +157,7 @@
 			stagePadding: 0,
 			nav: false,
 			dots: true,
-			navText: ['<span class="ion-ios-arrow-back">', '<span class="ion-ios-arrow-forward">'],
+			// navText: ['<span class="ion-ios-arrow-back">', '<span class="ion-ios-arrow-forward">'],
 			responsive:{
 				0:{
 					items: 1
